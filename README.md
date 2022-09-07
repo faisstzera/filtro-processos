@@ -4,7 +4,7 @@ Desenvolvimento de um projeto simples para filtrar uma database a partir de um I
 
 ## Assuntos Abordados no Desenvolvimento do Projeto:
 
-- Uso do HTML, CSS e do framework Bootstrap para o layout da aplicação.
+- Uso das linguagens HTML, CSS e do framework Bootstrap para o layout da aplicação.
 - Acesso ao banco de dados MYSQL.
 
 ## Configuração do Projeto:
