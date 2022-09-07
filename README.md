@@ -9,12 +9,12 @@ Desenvolvimento de um projeto simples para filtrar uma database a partir de um I
 
 ## Configuração do Projeto:
 
-- 1)Instalar o XAMPP.
-- 2)Inicializar o Apache e o MySQL no painel de controle do XAMPP.
-- 3)Deletar os ficheiros dentro da pasta htdocs, onde o XAMPP foi instalado.
-- 4)Clonar o repositório (ou fazer o download e extrair) na pasta xampp/htdocs.
-- 5)Entrar no localhost/phpmyadmin, clicar na aba importar e selecionar o arquivo SQL do repositório para configurar a database.
-- 6)Acessar o programa através do localhost/index.php.
+- Instalar o XAMPP.
+- Inicializar o Apache e o MySQL no painel de controle do XAMPP.
+- Deletar os ficheiros dentro da pasta htdocs, onde o XAMPP foi instalado.
+- Clonar o repositório (ou fazer o download e extrair) na pasta xampp/htdocs.
+- Entrar no localhost/phpmyadmin, clicar na aba importar e selecionar o arquivo SQL do repositório para configurar a database.
+- Acessar o programa através do localhost/index.php.
 
 ## Acessar o projeto online
 
