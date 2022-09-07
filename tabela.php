@@ -38,19 +38,24 @@ $userInput = $_GET['userInput'];
                 $username = "root";
                 $password = "";
                 $database = "escritorio";
-
+                
+                // Estabelecer a conexão com o banco de dados
                 $connection = new mysqli($servername, $username, $password, $database);
+                // Alertar se a conexão falhar
                 if ($connection->connect_error) {
                     die("A conexão falhou: " . $connection->connect_error);
                 }
-
+                
+                // Filtrar as rows de acordo com o input do usuário
                 $sql = "SELECT * FROM processos WHERE processos.advogado_id ='$userInput';";
                 $result = $connection -> query($sql);
-
+                
+                // Alertar se a query não for bem-sucedida
                 if (!$result) {
                     die("Invalid query: " . $connection->error);
                 }
-
+                
+                // Loop para printar as informações da database na tabela
                 while($row = $result->fetch_assoc()) {
                     echo "<tr>
                         <td>" . $row["id"] . "</td>
