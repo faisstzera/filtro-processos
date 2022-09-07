@@ -19,3 +19,6 @@ $password = "senhaUsuario";
 $database = "nomeDaDatabase";
 
 ```
+## Acessar o projeto online
+
+- Caso você queira acessar o projeto de maneira remota, sem instalar o XAMPP e configurar a database, é possível acessar o projeto através desse link: https://filtro-database.000webhostapp.com/index.php?
