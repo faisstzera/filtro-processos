@@ -9,16 +9,13 @@ Desenvolvimento de um projeto simples para filtrar uma database a partir de um I
 
 ## Configuração do Projeto:
 
-- Executar a query script_escritorio.sql ou importar o arquivo no phpMyAdmin para criar a database.
-- Editar o arquivo **tabela.php** a partir da linha **37** com as informações necessárias.
+- 1)Instalar o XAMPP.
+- 2)Inicializar o Apache e o MySQL no painel de controle do XAMPP.
+- 3)Deletar os ficheiros dentro da pasta htdocs, onde o XAMPP foi instalado.
+- 4)Clonar o repositório (ou fazer o download e extrair) na pasta xampp/htdocs.
+- 5)Entrar no localhost/phpmyadmin, clicar na aba importar e selecionar o arquivo SQL do repositório para configurar a database.
+- 6)Acessar o programa através do localhost/index.php.
 
-```
-$servername = "nomeDoDominio";
-$username = "usuarioDoMySql";
-$password = "senhaUsuario";
-$database = "nomeDaDatabase";
-
-```
 ## Acessar o projeto online
 
 - Caso você queira acessar o projeto de maneira remota, sem instalar o XAMPP e configurar a database, é possível acessá-lo através desse link: https://filtro-database.000webhostapp.com/index.php?
