@@ -7,7 +7,7 @@ CREATE TABLE IF NOT EXISTS escritorio.pessoas (
 	cpf_cnpj varchar(20),
 	endereço VARCHAR (128),
 	email VARCHAR (128)
-)
+);
 
 CREATE TABLE IF NOT EXISTS escritorio.processos (
 	id INT PRIMARY KEY AUTO_INCREMENT,
@@ -16,7 +16,7 @@ CREATE TABLE IF NOT EXISTS escritorio.processos (
 	numero_processo VARCHAR(35) NOT NULL,
 	proximo_prazo DATETIME NOT NULL,
 	arquivo BOOLEAN NOT NULL
-)
+);
 
 INSERT INTO escritorio.pessoas  
 VALUES  (pessoas.id, "Debra Wilson", FALSE,'76269440033', '790 Ethyl Ferry Apt. 611 - Morgan Hill, MN / 06986', 'debra.wilson@email.com'),
@@ -38,7 +38,7 @@ VALUES  (pessoas.id, "Debra Wilson", FALSE,'76269440033', '790 Ethyl Ferry Apt. 
 		(pessoas.id, "Laura Dean",TRUE,'54.438.461/0001-70', '1653 Jazmyn Stravenue Apt. 401 - Charleston, WA / 84049', 'laura.dean@email.com'),
 		(pessoas.id, "Shannon Hughes",TRUE,'95.830.535/0001-04', '05866 Trantow Greens Suite 482 - Washington, SC / 30837', 'shannon.hughes@email.com'),
 		(pessoas.id, "Charles Alvarez",TRUE,'67.762.532/0001-37', '191 Mitchell Alley Suite 352 - Bozeman, WA / 23572', 'charles.alvarez@email.com'),
-		(pessoas.id, "Jon Medina", TRUE, '58.536.813/0001-80', '775 Kuhlman Extension Apt. 528 - Erie, LA / 78587', 'jon.medina@email.com')
+		(pessoas.id, "Jon Medina", TRUE, '58.536.813/0001-80', '775 Kuhlman Extension Apt. 528 - Erie, LA / 78587', 'jon.medina@email.com');
 
 INSERT INTO escritorio.processos 
 VALUES (processos.id, 1, 10, "3405902-51.2022.4.04.3182", "2022-08-29 16:44:06.000", FALSE),
@@ -139,4 +139,4 @@ VALUES (processos.id, 1, 10, "3405902-51.2022.4.04.3182", "2022-08-29 16:44:06.0
 		(processos.id, 6, 20, "0679400-21.2022.6.19.4394", "2022-04-08 16:21:34.000", FALSE ),
 		(processos.id, 7, 20, "0715663-16.2022.2.00.3327", "2022-06-08 16:21:34.000", TRUE ),
 		(processos.id, 8, 20, "6113384-59.2022.2.00.5378", "2022-04-02 16:21:34.000", TRUE ),
-		(processos.id, 9, 20, "6113384-59.2022.2.00.5378", "2022-04-02 16:21:34.000", TRUE )
+		(processos.id, 9, 20, "6113384-59.2022.2.00.5378", "2022-04-02 16:21:34.000", TRUE );
